@@ -1,0 +1,53 @@
+*{
+    /*   * is universal selector */
+      margin: 0;
+      padding: 0;
+         }
+    
+    .nav ul{
+        /* uta code ma ul bhitra li xa so ul rakhesi sab
+        ul lai hunxa */
+        background-color: rgb(161, 28, 28);
+        text-align: center;
+        display: flex;
+        height: 40px;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    .nav li{
+        line-height: 40px;
+        height: 40px;
+        border-bottom: 3px solid rgb(117, 117, 12);
+    }
+    .nav a{
+        color: rgb(124, 220, 79) ;
+    }
+    .nav a:hover{
+        background-color: rgb(255, 0, 0);
+    }
+    @media screen and {min-width: 60px} 
+    {
+    
+        .nav li{
+            width: 120px;
+              
+        
+        }
+    }
+    .container .jumbotron{
+        margin: 10px;
+        text-align: center;
+        color:rgb(220, 36, 36);
+        background-color: rgb(108, 151, 251);
+        text-decoration:dotted;
+    }
+    .buttons{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .row{
+        padding: 20px;
+    }
+    
